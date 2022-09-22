@@ -1,11 +1,13 @@
 # Login with React Hooks Practicing
 
-## Functionality<br/>
+## Functionality
 
 - E-mail: must includes "@" and more than 1 character after "@"
 - password: must more than 6 characters
 - If Input values are not valid, when clicking Login button, invalid input will automatically focused by order from E-mail to password.
 - Whenever stopping typing in input for 0.3 sec, validator will invoke to check if input email & password is valid.
+
+## Hooks Review
 
 1. Context API and useContext  
    By Customizing Context Provider component, we can wrap <App> inside it to simplify the code in App.js.
